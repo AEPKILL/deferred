@@ -1,7 +1,7 @@
 {
-  "name": "deferred",
+  "name": "deferred-factory",
   "version": "1.0.0",
-  "description": "promise deferred function",
+  "description": "promise deferred object factory function",
   "repository": {
     "url": "https://github.com/AepKill/deferred",
     "type": "git"

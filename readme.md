@@ -1,8 +1,13 @@
+# Install
+
+`npm install deferred-factory`
+
 # Use
 
 ## with typescript
 
 ``` typescript
+import { deferred } from 'deferred-factory';
 async function demo(){
   const defer = deferred<{ name: string }>();
   setTimeout(() => defer.resolve({name: 'aepkill'}), 2000);
@@ -14,6 +19,7 @@ async function demo(){
 ## with  javascript
 
 ```javascript
+import { deferred } from 'deferred-factory';
 async function demo(){
   const defer = deferred();
   setTimeout(() => defer.resolve({name: 'aepkill'}), 2000);
