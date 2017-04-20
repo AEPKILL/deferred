@@ -2,6 +2,10 @@
   "name": "deferred",
   "version": "1.0.0",
   "description": "promise deferred function",
+  "repository": {
+    "url": "https://github.com/AepKill/deferred",
+    "type": "git"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "scripts": {
